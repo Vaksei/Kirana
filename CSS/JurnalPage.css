@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #edf1d6; /* Background color */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2{
+  font-size: 1.2rem;
+}
+
+header {
+  background-color: #609966; /* Header background color */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Lora", serif;
+  font-size: 24px;
+}
+
+.hero {
+  background-color: #9dc08b; /* Warna hero */
+  background-image: url("../Assets/image.png"),
+    linear-gradient(rgba(157, 192, 139, 0.5), rgba(157, 192, 139, 0.5)); /* Add your pattern image and a fallback gradient */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+header {
+  background-color: #9dc08b;
+  color: #edf1d6;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 40px;
+  padding: 10px;
+}
+
+nav {
+  background-color: #609966;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold; /* Make the font bolder */
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a i {
+  margin-right: 8px;
+}
+
+nav ul li a:hover {
+  color: darkgreen;
+}
+
+
+main {
+  padding: 1rem;
+}
+
+.greeting {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.greeting .date {
+  font-size: 2.5rem;
+  color: #666;
+}
+
+.mood-tracker {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mood p {
+  font-size: 1.2rem;
+}
+.mood-tracker .mood-icon {
+  width: 340px;
+  height: 280px;
+  margin: 1rem 0;
+}
+
+.mood-tracker .add-mood {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.recent-moods {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.recent-moods .moods {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recent-moods .mood {
+  text-align: center;
+}
+
+.recent-moods .mood img {
+  width: 200px;
+  height: 260px;
+  margin: 0.5rem 0;
+}
+
+.calendar {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.calendar-container {
+  background-color: #eef5d5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.average-mood {
+  text-align: center;
+}
+
+.mood-chart {
+  background-color: #edf1d6;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+footer {
+  background-color: #609966; /* Footer background color */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+}

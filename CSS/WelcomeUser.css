@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #edf1d6; /* Background color */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+.container {
+  text-align: center;
+  flex: 1;
+}
+
+header {
+  color: #609966; /* Header text color */
+  font-family: "Lora", serif;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.welcome-box {
+  background-color: #9dc08b; /* Box background color */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.avatar-container {
+  margin-bottom: 20px;
+}
+
+.avatar-image {
+  max-width: 300px;
+  height: auto;
+}
+
+.welcome-box h2 {
+  color: #edf1d6;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.smiley-container {
+  margin-bottom: 20px;
+}
+
+.smiley-image {
+  max-width: 200px;
+  height: auto;
+}
+
+.welcome-box h3 {
+  color: #edf1d6;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.start-button {
+  background-color: #609966;
+  color: #edf1d6;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.start-button:hover {
+  background-color: #77a392;
+}
+
+footer {
+  background-color: #609966; /* Footer background color */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #edf1d6; /* Background color */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+*{
+  font-family: Arial, sans-serif;
+}
+
+
+main{
+  padding: 0px 100px 0px 100px;
+  display: inline;
+  align-items: center;
+  justify-items: cen;
+}
+
+.hero {
+  background-color: #9dc08b; /* Warna hero */
+  background-image: url("../Assets/image.png"),
+    linear-gradient(rgba(157, 192, 139, 0.5), rgba(157, 192, 139, 0.5)); /* Add your pattern image and a fallback gradient */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 0px 100px 0px 100px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+header {
+  background-color: #9dc08b;
+  color: #edf1d6;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 40px;
+  padding: 10px;
+}
+
+nav {
+  background-color: #609966;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold; /* Make the font bolder */
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a i {
+  margin-right: 8px;
+}
+
+nav ul li a:hover {
+  color: darkgreen;
+}
+
+main {
+  padding: 20px;
+}
+
+.post {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  align-items: center;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.username {
+  margin: 0;
+  font-weight: bold;
+}
+
+.user-tag {
+  font-size: 1.2rem;
+  margin: 0;
+  color: gray;
+}
+
+.post-options {
+  color: gray;
+  cursor: pointer;
+  width: 100px;
+  height: 50;
+  font-size: 1.2rem;
+}
+
+.post-content {
+  margin-bottom: 10px;
+}
+
+.post-content h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.post-image {
+  width: auto;
+  border-radius: 10px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-stats {
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.post-stats span {
+  margin-right: 5px;
+  color: gray;
+}
+
+.post-stats img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.post-date {
+  color: gray;
+  font-size: 1.2rem;
+}
+footer {
+  background-color: #609966;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+}

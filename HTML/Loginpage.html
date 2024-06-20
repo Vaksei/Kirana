@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../CSS/LoginPage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>KIRANA</h1>
+      </header>
+      <div class="image-container">
+        <img
+          src="../Assets/KIRANA.png"
+          alt="Kirana Image"
+          class="kirana-image"
+        />
+      </div>
+      <div class="login-box">
+        <h2>Login</h2>
+        <form action="path/tologin" method="POST">
+          <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <p class="signup-link">
+            Forget Your <a href="ForgotPassword.html">Password?</a>
+          </p>
+          <a href="WelcomeUser.html" class="login-button">Login</a>
+        </form>
+      </div>
+      <p class="signup-link">
+        Don't have an account yet? <a href="signUp.html">Sign Up</a>
+      </p>
+    </div>
+    <footer>
+      <p>&copy; 2024 Website Anda. Semua Hak Dilindungi.</p>
+    </footer>
+  </body>
+</html>
